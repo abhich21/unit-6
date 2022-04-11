@@ -11,7 +11,8 @@ var loadMore = function() {
 }
 
 // Detect when scrolled to bottom.
-listElm.addEventListener('scroll', function() {
+listElm.addEventListener('scroll', function () {
+    console.log(listElm.getBoundingClientRect);
   if (listElm.scrollTop + listElm.clientHeight >= listElm.scrollHeight) {
     loadMore();
   }

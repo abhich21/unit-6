@@ -3,9 +3,11 @@
   width: 200px;
   height: 300px;
   overflow: auto;
-  margin: 30px;
+  margin: auto;
   padding: 20px;
   border: 10px solid black;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
