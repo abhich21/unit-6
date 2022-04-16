@@ -1,12 +1,18 @@
-import { useState } from 'react'
+
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import { Country } from './components/Country'
+import { City } from './components/City'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-     
+      <h2>Hello</h2>
+      <Routes>
+        <Route path='/country' element={<Country />}></Route>
+        <Route path='/city' element={<City />}></Route>
+      </Routes>
     </div>
   )
 }
