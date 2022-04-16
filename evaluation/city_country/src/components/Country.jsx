@@ -6,13 +6,12 @@ export const Country = () => {
 const [country, setCountry] = useState("");
 
 const handleSubmit = () => {
-				postData(country);
-		
+				postData(country);		
 }
 
 const postData = (country) => {
 	axios.post("http://localhost:5000/countries",{country:country})
-	//console.log("Country Added")
+	console.log("Country Added")
 }
 
 	return <div>

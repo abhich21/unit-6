@@ -1,31 +1,37 @@
-import { ADD_CITY, ADD_COUNTRY, DELETE_CITY, UPDATE_CITY } from "./action"
+import {ADD_COUNTRY, ADD_CITY, DELETE_CITY, UPDATE_CITY} from "./action";
+
 
 const initState = {
     country: [],
-    city:[]
-}
+    city: []
+};
 
-export const reducer = (store = initState, { payload, type }) => {
+export const reducer = (store = initState, {payload, type}) => {
     switch (type) {
         case ADD_COUNTRY:
             return {
                 ...store,
-                countries:[...payload]
-            }
+                country: [...payload]
+            };
+
         case ADD_CITY:
+            console.log("Store", store);
             return {
                 ...store,
-                cities:[...payload]
-            }
+                city: [...payload]
+            };
+
         case DELETE_CITY:
             return {
                 ...store
-            }
+            };
+
         case UPDATE_CITY:
             return {
                 ...store
-            }
+            };
+
         default:
-            return store
+            return store;
     }
 }
