@@ -1,6 +1,6 @@
 import { useState } from "react"
 import axios from "axios";
-import { addCity } from "../Redux/city/action";
+import { addCity } from "../Redux/action";
 import { useDispatch } from "react-redux";
 
 export const City = () => {

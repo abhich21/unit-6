@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import { Country } from './components/Country'
-import { City } from './components/City'
-import { Home } from './components/Home'
+import { Home } from "./components/Home";
+import { City } from "./components/City"
+import {Country} from "./components/Country"
 
 function App() {
 

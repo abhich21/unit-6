@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addCity } from "../Redux/city/action";
+import { addCity } from "../Redux/action";
 
 export const Home =() => {
 	const cities= useSelector((store) => {
@@ -17,7 +17,7 @@ const dispatch= useDispatch();
 		axios.get("http://localhost:5000/cities")
 		.then((res) => {
 			console.log("Data", res.data)
-			dispatch(addCity(res))
+			dispatch(addCity(res.data))
 			
 		})
 		
@@ -45,7 +45,7 @@ const dispatch= useDispatch();
           {cities.map((el, i) => {
             return (
               <tr key={el.id}>
-                <td>{i}</td>
+                <td>{el.id}</td>
                 <td>{el.country}</td>
 				<td>{el.city}</td>
                 <td>{el.population}</td>
