@@ -37,7 +37,7 @@ const dispatch= useDispatch();
             <th>Sl.NO</th>
             <th>Task</th>
             <th>Status</th>
-            <th>Delete</th>
+            <th>Population</th>
           </tr>
         </thead>
 
