@@ -1,0 +1,33 @@
+{
+  "pethouse": [
+    {
+      "name": "petSet",
+      "city": "kolkata",
+      "address": "chapdaani",
+      "capacity": "22",
+      "cost": "600",
+      "verified": "yes",
+      "rating": "5.0",
+      "id": 1
+    },
+    {
+      "name": "petSet",
+      "city": "kolkata",
+      "address": "chapdaani",
+      "capacity": "22",
+      "cost": "600",
+      "verified": "yes",
+      "rating": "5.0",
+      "id": 2
+    },{
+      "name": "petSet",
+      "city": "kolkata",
+      "address": "chapdaani",
+      "capacity": "22",
+      "cost": "600",
+      "verified": "yes",
+      "rating": "5.0",
+      "id": 3
+    }
+  ]
+}
