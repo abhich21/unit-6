@@ -5,7 +5,7 @@
       "city": "kolkata",
       "address": "chapdaani",
       "capacity": "22",
-      "cost": "600",
+      "cost": "300",
       "verified": "yes",
       "rating": "5.0",
       "id": 1
@@ -15,19 +15,30 @@
       "city": "kolkata",
       "address": "chapdaani",
       "capacity": "22",
-      "cost": "600",
+      "cost": "500",
       "verified": "yes",
-      "rating": "5.0",
+      "rating": "4.1",
       "id": 2
-    },{
+    },
+    {
       "name": "petSet",
       "city": "kolkata",
       "address": "chapdaani",
       "capacity": "22",
-      "cost": "600",
+      "cost": "350",
       "verified": "yes",
-      "rating": "5.0",
+      "rating": "4.6",
       "id": 3
+    },
+    {
+      "name": "Bappi Pet Services",
+      "city": "barrackpore",
+      "address": "chiriya more",
+      "capacity": "150",
+      "cost": "800",
+      "verified": "yes",
+      "rating": "4.7",
+      "id": 4
     }
   ]
 }
