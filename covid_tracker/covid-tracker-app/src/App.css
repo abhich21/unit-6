@@ -2,3 +2,8 @@
   text-align: center;
   color: #ffffff;
 }
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+}
