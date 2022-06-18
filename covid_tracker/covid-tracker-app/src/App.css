@@ -2,8 +2,8 @@
   text-align: center;
   color: #ffffff;
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 478px) {
   .container {
-    margin: 0 10%;
+    margin: 0;
   }
 }
