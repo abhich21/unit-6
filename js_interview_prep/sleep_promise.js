@@ -1,4 +1,4 @@
-//var arr = [1, 2, 3, 4, 5]
+var arr = [1, 2, 3, 4, 5]
 
 /* */
 // for (var i = 0; i < arr.length; i++){
@@ -15,11 +15,22 @@
 //   }(i),i*1000)
 // }
 /* */
- 
-// function display(i){
-//   setTimeout(()=>console.log(this[i],i),i*1000)
+// for (let i = 0; i < arr.length; i++){
+//     display(arr[i])
 // }
-let x = "hghg";
+
+// function display(i){
+//   setTimeout(()=>console.log(i,i-1),i*1000)
+// }
+/* */
+for (let i = 1; i <= 5; i++){
+    timer(i)
+}
+function timer(i) {
+    setTimeout(()=> console.log(i),i*1000)
+}
+
+let x = 25;
 
 const sleep = new Promise((resolve, reject) => {
 
