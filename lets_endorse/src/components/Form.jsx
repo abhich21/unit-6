@@ -83,7 +83,7 @@ const Form = () => {
       <div className="cont">
         <div className="left">
           <form>
-            <h1>Introduction Of Your Bussiness</h1>
+            <h1 style={{ marginLeft:"17px"}}>Introduction Of Your Bussiness</h1>
             <div className="input_div">
               <label>Name</label>
               <input
